@@ -1,20 +1,24 @@
 <DOCTYPE! html>
 
 <html>
-<link rel="stylesheet" type="text/css" href="sellyourbook.css">
 <link href='css/bootstrap.min.css' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+  <img src="BooksHeaderImage.jpg" alt="Header Books">
+  <h1> Sell your book! </h1>
+</header>
 
 <body>
-  <div class='container'>
-  <div class='jumbotron'>
-    <div class="row">
-      <div class="col-sm-8">
-    <h1>Sell your book!</h1>
-  </div>
-  <div class="col-sm-4">
-    <img cimg src="https://admissions.vanderbilt.edu/insidedores/manage/wp-content/uploads/depositphotos_6432327-Stack-of-textbooks.jpg" alt="textbooks"style="width:400px;height:450px;">
-  </div>
 
+<div class='container'>
+  <div class='jumbotron'>
+
+<div id="Sell" class="text-center">
+  <h2><small>Selling Page</small><br />Information on the Book</h2>
+  <div class="row">
+    <div class ="col-sm-12">
 <form>
   Title:<br>
   <input type="text" name="Title Book"><br>
@@ -31,5 +35,16 @@
   <input type="radio" name="Delivery Style" value="Postage"> Postage<br>
   Upload Picture:<br>
   <input type="text" name="Upload Picture of the Book"><br>
-  <input type="Submit" value="Confirm">
+  <button class="btn btn-success" type="submit">Confirm</button>
+</form>
+</div>
+
+<div id='social-buttons'>
+  <i class="fa fa-facebook-f fa-2x"></i>
+  <i class="fa fa-twitter fa-2x"></i>
+  <i class="fa fa-pinterest fa-2x"></i>
+</div>
+
+<form>
+  <button class="btn btn-primary" type="submit">Back to Homepage</button>
 </form>
